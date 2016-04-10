@@ -14,7 +14,7 @@ pom.xml.asc
 
 # Ignore H2 database files
 
-guestbook/guestbook_dev.db.mv.db
+guestbook/guestbook_*.db.mv.db
 
 # Ignore logs and target directories
 log/
