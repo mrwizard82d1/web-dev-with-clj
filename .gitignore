@@ -3,7 +3,7 @@ pom.xml.asc
 *jar
 /lib/
 /classes/
-/target/
+**/target/
 /checkouts/
 .lein-deps-sum
 .lein-repl-history
@@ -11,6 +11,10 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .lein-env
+
+# Ignore H2 database files
+
+guestbook/guestbook_dev.db.mv.db
 
 # Ignore logs and target directories
 log/
